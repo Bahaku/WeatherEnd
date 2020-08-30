@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="some_id">30</string>
+    <string name="appid">0c1a0501bff51ac81755b4e02e10d3e0</string>
+    <string name="Now">Сейчас</string>
+    <string name="toDay">Сегодня</string>
+</resources>
