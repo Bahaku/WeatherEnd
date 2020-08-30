@@ -4,4 +4,7 @@
     <string name="appid">0c1a0501bff51ac81755b4e02e10d3e0</string>
     <string name="Now">Сейчас</string>
     <string name="toDay">Сегодня</string>
+    <string name="_31">31</string>
+    <string name="_2020">Августа\2020</string>
+    <string name="Av">август 2020</string>
 </resources>
