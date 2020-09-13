@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weather.data.modules.ForecastItem
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.rv_weather.view.*
 
 class RvAdapter: RecyclerView.Adapter<RvHolder>(){
@@ -36,7 +37,10 @@ class RvAdapter: RecyclerView.Adapter<RvHolder>(){
 class RvHolder(v: View) : RecyclerView.ViewHolder(v) {
 
     fun bind(forecastItem: ForecastItem) {
-        itemView.tvText.text = forecastItem.main.temp.toString()
+        itemView.tvText.text = forecastItem.main.temp.toInt().toString()
+        val image = forecastItem.weather.first().icon
+        Picasso.get().load(itemView.context.getString(R.string.image_url, image))
+            .into(itemView.weatherImage)
     }
 
 }

@@ -6,4 +6,24 @@
     <string name="toDay">Сегодня</string>
     <string name="_31">31</string>
     <string name="_2020">Сентябрь\n2020</string>
+    <string name="today">Сегодня</string>
+    <string name="Wind">Ветер</string>
+    <string name="this_week">Эта неделя</string>
+    <string name="_19">19</string>
+    <string name="_20">20</string>
+    <string name="Cloudly">Облачно</string>
+    <string name="windFormat">%1sm/s</string>
+    <string name="currentFormat">%1s°</string>
+    <string name="pressureFormat">%1smb</string>
+    <string name="percentformat">%1$d%%</string>
+    <string name="humidityFormat">%1$d%%</string>
+    <string name="City">Bishkek,KG</string>
+    <string name="humidity">Влажность</string>
+    <string name="cloudiness">Облачность</string>
+    <string name="Sunrise">Восход</string>
+    <string name="sunset">Закат</string>
+    <string name="max">Макс</string>
+    <string name="min">Мин</string>
+    <string name="image_url">http://openweathermap.org/img/w/%1s.png</string>
+    <string name="Davlenie">Давление</string>
 </resources>
